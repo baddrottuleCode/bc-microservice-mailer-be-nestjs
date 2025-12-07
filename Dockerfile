@@ -5,6 +5,8 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+RUN npm install git+https://github.com/baddrottuleCode/bc-library-healthcheck-be-nestjs.git
+
 COPY . .
 RUN npm run build
 
