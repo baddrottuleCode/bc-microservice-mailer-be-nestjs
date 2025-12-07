@@ -20,12 +20,12 @@ async function bootstrap() {
 
   app.enableCors();
 
-  const port = process.env.PORT || 8081;
+  const port = process.env.PORT;
 
   await app.listen(port, '0.0.0.0');
 
-  const appName = process.env.APP_NAME || 'App';
-  const appDesc = process.env.APP_DESCRIPTION || '';
+  const appName = process.env.APP_NAME;
+  const appDesc = process.env.APP_DESCRIPTION;
   
   console.log(`📧 ${appName} is running on: http://0.0.0.0:${port}`);
   console.log(`ℹ️  Description: ${appDesc}`);
