@@ -10,8 +10,8 @@ export class HealthController {
     return {
       status: 'ok',
       service: serviceName,
-      description: serviceDescription
-      timestamp: new Date().toISOString(),
+      description: serviceDescription,
+      timestamp: new Date().toISOString()
     };
   }
 }
