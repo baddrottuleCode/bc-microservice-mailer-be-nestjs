@@ -1,8 +1,13 @@
 import { Module } from '@nestjs/common';
-import { EmailModule } from './email/email.module';
+import { FirestoreModule } from 'bc-library-firestore-nestjs';
 import { HealthModule } from 'bc-library-healthcheck-be-nestjs';
+import { MailModule } from './mail/mail.module';
 
 @Module({
-  imports: [EmailModule, HealthModule],
+  imports: [
+    FirestoreModule,
+    HealthModule,
+    MailModule,
+  ],
 })
 export class AppModule {}

@@ -1,8 +1,8 @@
 {
   "name": "bc-microservice-mailer-be-nestjs",
-  "version": "1.0.0",
-  "description": "BaddrottuleCode - microservizio per mandare mail in nestJs",
-  "scripts": {
+  "version": "2.0.0",
+    "description": "BaddrottuleCode - microservizio per mandare mail in nestJs",
+   "scripts": {
     "build": "nest build",
     "start": "nest start",
     "start:dev": "nest start --watch",
@@ -15,10 +15,13 @@
     "@nestjs/platform-express": "^10.3.0",
     "class-validator": "^0.14.1",
     "class-transformer": "^0.5.1",
+    "firebase-admin": "^12.0.0",
     "nodemailer": "^6.9.8",
     "reflect-metadata": "^0.2.1",
     "rxjs": "^7.8.1",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "bc-library-firestore-nestjs": "file:../bc-library-firestore-nestjs",
+    "bc-library-healthcheck-be-nestjs": "file:../bc-library-healthcheck-be-nestjs"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.3.0",
