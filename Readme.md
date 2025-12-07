@@ -1,6 +1,6 @@
-# 📧 Email Microservice
+# BaddrottuleCode Mailer
 
-Microservizio dedicato all'invio di email per Setlist Manager.
+Microservizio per mandare mail in BaddrottuleCode.
 
 ## 🚀 Features
 
@@ -146,7 +146,7 @@ npm run start:dev
 # Configura variabili ambiente
 gcloud run services update email-microservice \
   --region europe-west1 \
-  --set-env-vars SMTP_HOST=smtp.gmail.com,SMTP_PORT=587,SMTP_USER=your-email@gmail.com,SMTP_PASS=your-app-password,FRONTEND_URL=https://your-app.com
+  --set-env-vars SMTP_HOST=smtp.gmail.com,SMTP_PORT=587,SMTP_USER=your-email@gmail.com,SMTP_PASSWORD=your-app-password,FRONTEND_URL=https://your-app.com
 ```
 
 ## 🔒 Sicurezza
