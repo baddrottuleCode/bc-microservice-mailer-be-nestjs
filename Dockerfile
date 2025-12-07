@@ -8,7 +8,7 @@ COPY package*.json ./
 RUN npm install
 
 RUN npm install git+https://github.com/baddrottuleCode/bc-library-healthcheck-be-nestjs.git
-RUN npm install git+https://github.com/baddrottuleCode/bc-library-firestore-nestjs.git
+RUN npm install git+https://github.com/baddrottuleCode/bc-library-firestore-be-nestjs.git
 
 COPY . .
 RUN npm run build
