@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException, ConflictException, Logger } from '@nestjs/common';
-import { FirestoreService } from 'bc-library-firestore-nestjs';
+import { FirestoreService } from 'bc-library-firestore-be-nestjs';
 import { MailService } from '../entities/mail.entity';
 import { CreateMailServiceDto, UpdateMailServiceDto } from '../dto/mail.dto';
 

@@ -20,7 +20,7 @@
     "reflect-metadata": "^0.2.1",
     "rxjs": "^7.8.1",
     "dotenv": "^16.3.1",
-    "bc-library-firestore-nestjs": "file:../bc-library-firestore-nestjs",
+    "bc-library-firestore-be-nestjs": "file:../bc-library-firestore-be-nestjs",
     "bc-library-healthcheck-be-nestjs": "file:../bc-library-healthcheck-be-nestjs"
   },
   "devDependencies": {
